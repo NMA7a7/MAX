@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header {
+    background: url('../images/header-bg.jpg');
+    height: 800px;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-link {
+    color: white;
+    background: black;
+    display: inline-block;
+    padding: 10px 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-message {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-title {
+    color: white;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+
+.header-callme {
+    color: black;
+    background: white;
+    display: flex;
+    padding: 10px 0;
+    width: 300px;
+    justify-content: center;
+    text-transform: uppercase;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.header-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-title {
+    color: black;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.about-descr {
+    text-align: center;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.about-link {
+    color: white;
+    background: black;
+    display: flex;
+    padding: 5px 0;
+    width: 250px;
+    justify-content: center;
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.myworks-title {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 35px;
+}
+
+.card {
+    max-width: 300px;
+    width: 100%;
+    border: 1px solid black;
+    padding: 15px 5px;
+    margin-bottom: 20px;
+}
+
+.card-img {
+    width: 100%;
+}
+
+.card-title {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.card-descr {
+    text-align: center;
+    margin: 15px 0;
+}
+
+.card-link {
+    display: flex;
+    justify-content: center;
+    background: black;
+    color: white;
+    width: 150px;
+    padding: 10px 0;
+    font-size: 13px;
+    margin: 0 auto;
+    font-weight: bold;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    border-radius: 5px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer {
+    background: wheat;
+    padding: 30px 0;
+}
+
+.footer-img {
+    width: 50px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-link {
+    margin-left: 20px;
+}
